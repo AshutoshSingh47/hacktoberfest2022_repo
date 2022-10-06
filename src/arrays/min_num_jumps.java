@@ -1,6 +1,5 @@
 class Solution{
-    static int minJumps(int[] arr){
-        int n=arr.length;
+    static int minJumps(int[] arr,int n){
         if(n==1)
         return 0;
         if(arr[0]==0)
@@ -27,6 +26,6 @@ class Solution{
     {
     int arr[]={1,3,5,8,9,2,6,7,6,8,9};
         int n=arr.length;
-    System.out.println( minjumps(arr));
+    System.out.println( minjumps(arr,n));
     }
 }
